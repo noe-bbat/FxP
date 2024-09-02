@@ -1,0 +1,6 @@
+Problèmes actuels:
+
+-La division par FxP ne marche pas
+
+-Lors d'une opération telle que ^, &, ou |, les fonctions d'arrondissement ne sont pas correctes: 
+Ex: Round_Inf renvoit le plus grand y tel que y<x dans Z(2^l')
